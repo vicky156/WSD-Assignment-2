@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<h1>Diary Keeper</h1>
+<h1>Welcome to M Squared</h1>
 <%
 	User user = (User)session.getAttribute("user"); 
 

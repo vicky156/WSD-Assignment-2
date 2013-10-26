@@ -8,6 +8,6 @@
 </head>
 <body>
 <%session.invalidate();%>
-You have been logged out. Click <a href="index.jsp">here</a> to return to the main page
+You have been logged out of M Squared. Click <a href="index.jsp">here</a> to return to the main page
 </body>
 </html>
