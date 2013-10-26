@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <email>ryan@ryanheise.com</email>
+        <name>Ryan Heise</name>
+        <password>blahblah</password>
+        <gender>male</gender>
+        <favouriteColour>green</favouriteColour>
+    </user>
+    <user>
+        <email>joe@bloggs.com</email>
+        <name>Joe Bloggs</name>
+        <password>foobar</password>
+        <gender>male</gender>
+        <favouriteColour>yellow</favouriteColour>
+    </user>
+</users>
