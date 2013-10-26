@@ -7,11 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% String filePath = application.getRealPath("WEB-INF/users.xml"); %>
+<% String filePath = ("users.xml"); %>
 <jsp:useBean id="userApp" class="wsd.assignment.user.UserApplication" scope="application">
     <jsp:setProperty name="userApp" property="filePath" value="<%=filePath%>"/>
 </jsp:useBean>
-<% userApp.makeXML("helloname", "hellopassword", "helloemail", filePath); %>
+<% userApp.makeXML(); 
+    out.print(filePath);
+%>
 You have been logged out of M Squared. Click <a href="index.jsp">here</a> to return to the main page
 </body>
 </html>

@@ -31,7 +31,7 @@ public class userService {
 					.getAttribute("userApp");
 			if (userApp == null) {
 				userApp = new UserApplication();;
-				userApp.setFilePath(application.getRealPath("users.xml"));
+				userApp.setFilePath(application.getRealPath("WEB-INF/users.xml"));
 				application.setAttribute("userApp", userApp);
 			}
 			return userApp;
