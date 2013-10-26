@@ -7,7 +7,7 @@
 <title>Register</title>
 </head>
 <body>
-<h2>Register</h2>
+<h2>Register For M Squared!</h2>
 <form name="register" action="welcome.jsp" method="post" id="register">
 <table border="0">
 <tr>
