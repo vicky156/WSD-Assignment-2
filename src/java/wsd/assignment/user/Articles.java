@@ -15,10 +15,10 @@ import javax.xml.bind.annotation.*;
 	    public ArrayList<Article> getList() {
 	        return list;
 	    }
-	    public void addUser(Article article) {
+	    public void addArticle(Article article) {
 	        list.add(article);
 	    }
-	    public void removeUser(Article article) {
+	    public void removeArticle(Article article) {
 	        list.remove(article);
 	    
 	    }
