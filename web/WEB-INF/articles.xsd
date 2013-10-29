@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.uts.edu.au/31284/wsd-articles"
+xmlns="http://www.uts.edu.au/31284/wsd-articles" 
+elementFormDefault="qualified">
+
+<!-- Insert your type declarations here -->
+
+<xs:simpleType name="date">
+<xs:restriction base="xs:string">
+<xs:pattern value="\d{1,2}"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="month">
+<xs:restriction base="xs:string">
+<xs:pattern value="\d{1,2}"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="year">
+<xs:restriction base="xs:string">
+<xs:pattern value="\d{1,4}"/>
+</xs:restriction>
+</xs:simpleType>
+
+
+
+<!-- Insert your element declarations here -->
+
+<xs:element name="articles">
+<xs:complexType>
+<xs:sequence>
+
+<xs:element name="article" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="title" type="xs:string"/>
+<xs:element name="date" type="date"/>
+<xs:element name="month" type="month"/>
+<xs:element name="year" type="year"/>
+<xs:element name="body" type="xs:string"/>
+</xs:sequence>
+
+<xs:attribute name="id" type="xs:positiveInteger" use="required"/> 
+</xs:complexType>
+</xs:element>
+
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
