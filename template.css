@@ -1,0 +1,88 @@
+/* 
+    Created on : 28-Oct-2013, 11:33:32
+    Author     : Michael
+*/
+
+li
+{
+float:left;
+display: inline;
+}
+
+a
+{
+width: 120px;
+display: block;
+}
+
+h1
+{
+text-align:center;
+color: #FFFFFF;
+font: Arial;
+font-size: large;
+}
+
+h2
+{
+text-indent: 20px;
+text-align: left;
+color: #009933;
+font: Arial;
+font-size: large;
+}
+
+p1
+{
+text-indent: 10px;
+}
+
+body
+{
+padding:0px;
+border:0px solid gray;
+margin:0px;
+background-color: lightgrey;
+}
+
+#header
+{
+padding: 1px;
+width: 100%;
+text-align: center;
+background-color: #009933;
+}
+
+#container
+{
+width: 920px;
+opacity: 80%;
+height: 800px;
+margin: auto;
+background-color:white;
+}
+
+#navbar
+{
+color: white;
+width: 70%;
+}
+
+#left
+{
+float: left;
+margin: 12px;
+width: 170px;
+border: 1px solid;
+position: absolute;
+height: 780px;
+}
+
+#content
+{
+float: right;
+margin: 12px;
+width: 720px;
+border: 1px solid;
+height: 780px;
+}
