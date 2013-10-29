@@ -3,12 +3,16 @@
 <articles>
     <article>
         <title>Happy Day</title>
-        <date>11/9/2013</date>
+        <date>11</date>
+        <month>9</month>
+        <year>2011</year>
         <body> I am very happy today, because I had go to watch a film with my friends...  </body>
     </article>
     <article>
         <title>Shopping Day</title>
-        <date>15/9/2013</date>
+        <date>20</date>
+        <month>10</month>
+        <year>2011</year>
 	<body> I bought a new cloth....  </body>
     </article>
 </articles>
