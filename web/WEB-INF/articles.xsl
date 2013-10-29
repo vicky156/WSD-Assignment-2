@@ -18,6 +18,12 @@
         <td>
           <xsl:value-of select="date"/>
         </td>
+        <td>
+          <xsl:value-of select="month"/>
+        </td>
+        <td>
+          <xsl:value-of select="year"/>
+        </td>
       </tr>
     </xsl:for-each>
   </table>
